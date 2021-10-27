@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+.selectBoxContainer {
+    height: 50px;
+    width: 220px;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 40px;
+    color : white;
+    background-color: #080808;
+  }
+  
+  .selectBoxBox {
+    width: 220px;
+    position: absolute;
+  }
+  
+  .selectBoxSelectedItem {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    padding: 4px 12px;
+    vertical-align: middle;
+    background-color: #080808;
+  }
+  
+  .selectBoxItemsDiv {
+    background-color: #080808;
+    padding: 6px;
+    padding-left: 20px;
+  }
+  
+  .selectBoxArrow {
+    width: 30px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background-color: #080808;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .selectBoxArrowDown {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #EBD200;  
+  }
+  
+  .selectBoxArrowUp {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid #EBD200;
+  }
+  

@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+
+
+@media only screen and (min-width: 1200px) {
+    .content {
+        margin-top : 30px;
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        width: 100%;       
+        text-align: center;
+      }
+    .header { 
+        left: 0;
+        width : 1200px;
+        margin-top : 100px;
+      
+    }
+    .logo {  
+        margin-left : calc(50% - 76px);
+        background-image: url(../public/logotoken.png); 
+        background-repeat : no-repeat;
+        background-size: 151px 93px;
+        width : 151px;
+        height : 93px;
+        
+    }
+    .banner{
+        margin-top : 96px;
+        color : white;  
+        font-family : Poppins;
+        text-align: center;
+        font-size : 64px;
+        line-height : 75px;
+        font-weight : 200;
+        width : 100%;
+
+    }
+    .filterBar{    
+        display : flex;
+        justify-content: flex-end;
+        margin-top : 50px;
+        width : 100%;
+        height : 50px;
+
+    }
+    .filterLabel{
+        font-family: Roboto;
+        color : #C3C4CA;
+        width : 72px;
+        height : 50px;
+        line-height: 50px;
+        
+    }
+    .filter{
+        position: relative;
+        background-color : #080808;
+        width : 240px;
+        height : 50px;
+        float: right;
+    }
+  }
+  
+ 
+  @media only screen and (min-width: 801px) and (max-width: 1200px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        width: 800px;       
+        text-align: center;
+        margin-left: calc(50% - 400px);
+      }
+    .header { 
+        left: 0;
+        width : 800px;
+        margin-top : 100px;
+        margin-left: calc(50% - 400px);
+    }
+    .logo {  
+        margin-left : calc(50% - 76px);
+        background-image: url(../public/logotoken.png); 
+        background-repeat : no-repeat;
+        background-size: 151px 93px;
+        width : 151px;
+        height : 93px;      
+    }
+    .banner{
+        margin-top : 96px;
+        color : white;  
+        font-family : Poppins;
+        text-align: center;
+        font-size : 64px;
+        line-height : 75px;
+        font-weight : 200;
+        width : 100%;
+
+    }
+    .filterBar{    
+        display : flex;
+        justify-content: flex-end;
+        margin-top : 50px;
+        width : 100%;
+        height : 50px;
+
+    }
+    .filterLabel{
+        font-family: Roboto;
+        color : #C3C4CA;
+        width : 72px;
+        height : 50px;
+        line-height: 50px;
+        
+    }
+    .filter{
+        position: relative;
+        background-color : #080808;
+        width : 240px;
+        height : 50px;
+        float: right;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        color: black;
+        width: 400px;       
+        text-align: center;
+        margin-left: calc(50% - 200px);
+      }
+      .header { 
+        left: 0;
+        margin-top : 100px;
+        width : 400px;
+        margin-left: calc(50% - 200px);
+    }
+    .logo {  
+        margin-left : calc(50% - 76px);
+        background-image: url(../public/logotoken.png); 
+        background-repeat : no-repeat;
+        background-size: 151px 93px;
+        width : 151px;
+        height : 93px;      
+    }
+    .banner{
+        margin-top : 96px;
+        font-family : Poppins;
+        color : white; 
+        text-align: center;
+        font-size : 64px;
+        line-height : 75px;
+        font-weight : 200;
+        width : 100%;
+
+    }
+    .filterBar{    
+        display : flex;
+        justify-content: flex-end;
+        margin-top : 50px;
+        width : 100%;
+        height : 50px;
+
+    }
+    .filterLabel{
+        font-family: Roboto;
+        color : #C3C4CA;
+        width : 72px;
+        height : 50px;
+        line-height: 50px;
+        
+    }
+    .filter{
+        position: relative;
+        background-color : #080808;
+        width : 240px;
+        height : 50px;
+        float: right;
+    }
+  }
